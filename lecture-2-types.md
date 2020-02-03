@@ -43,6 +43,7 @@ They are equally good... sort of.
 #### Interpolation Example 
 
 ```js
+// Assigning variables.
 let pi = 3.14;
 let diameter = 14;
 let radius = diameter / 2;
@@ -159,13 +160,13 @@ Of course comparison operators and logical operators are usually combined in an 
 ```js
 // Look at these expressions below and determine whether they evaluate to true or false
 
-1. true || false
-2. false && false
-3. 1 < 2 && 2 > 1
-4. 31 < 13 || 1 < 2 && 3 > 1
-5. 400 <= 400 && 399 < 400 && (30 > 31 || 400 > 31)
-6. true && false && false || false && true
-7. true && false || true || false
+1. true || false - T 
+2. false && false - F 
+3. 1 < 2 && 2 > 1 - T 
+4. 31 < 13 || 1 < 2 && 3 > 1 - T
+5. 400 <= 400 && 399 < 400 && (30 > 31 || 400 > 31) T
+6. true && false && false || false && true - F
+7. true && false || true || false - T
 8. true && false && false || false && true ? true && false && false || false && true : 1 < 2 && 2 > 1
 ```
 
@@ -222,7 +223,7 @@ For more details, you can check out this [Sitepoint page](https://www.sitepoint.
 - Arrays are sequences of anything. Strings, numbers, booleans, arrays, other things we haven't learned about yet.
 - You can declare an array by using [ ] square brackets.
 - We separate the elements of an array with a comma.
-- Arrays are mutable.
+- Arrays are mutable. Meaning it can be changable in the future.
 
 ```js
 ['bacon', undefined, 900, true]
@@ -241,7 +242,7 @@ We reference the element of an array by its position (index) in the array.
 // Example 1 - Given this array
 let anArrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-1. anArrayOfNumbers[0]
+1. anArrayOfNumbers[0] 
 2. anArrayOfNumbers[5]
 3. anArrayOfNumbers[9]
 4. anArrayOfNumbers[10]
@@ -277,8 +278,8 @@ let table = [
   [31,32,33,34,35,36]
 ]
 
-1. table[0][0]
-2. table[5][5]
+1. table[0][0] //1
+2. table[5][5] //35
 3. table[2][3]
 4. How would we access the value 27?
 ```
@@ -293,9 +294,12 @@ Given this data structure:
 let data = [0, [], [], [1,2,3, [4]]]
 ```
 
-1. How would you access the value `0`?
+1. How would you access the value `0`? 
+ans: 0
 2. How would you access the value `3`?
+ans: 3 2
 3. How would you access the value `4`?
+ans: 3 3 0
 
 ---
 

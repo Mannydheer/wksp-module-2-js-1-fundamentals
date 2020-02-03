@@ -6,7 +6,6 @@ import whileLoop from './assets/while_loop.png';
 # 2.1.5 JavaScript Control Flow
 
 ---
-
 JavaScript executes a program from top to bottom in order.
 
 <img src='./assets/straight_line.png' />
