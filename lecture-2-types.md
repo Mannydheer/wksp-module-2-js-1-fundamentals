@@ -381,9 +381,9 @@ let person = {name: 'Bob', age: 23};
 let name = 'John';
 
 // What is the value of the following expressions?
-1. person.name
-2. person['name']
-3. person[name]
+1. person.name //bob
+2. person['name'] //bob
+3. person[name] //null - Looking for key of John
 
 ```
 
@@ -398,10 +398,10 @@ let person = {name: 'bob', age: 23};
 let key = 'name';
 
 // What is the value of the following expressions:
-1. person.key
-2. person['key']
-3. person[key]
-
+1. person.key  //undefined. 
+2. person['key'] // undefined
+3. person[key] //person['name']
+ // === 'bob'
 ```
 
 ---
