@@ -60,11 +60,29 @@ Turn the following sentences into valid JavaScript `if` statements. _Use console
 // 1. If it rains, I stay home.
 let currentWeather = 'rainy';
 
+if (currentWeather === 'rainy') {
+    console.log('I stay home')
+}
+
+
+
 // 2. If I am hungry, I eat.
 let hunger = true;
 
+if (hunger === true) {
+    console.log(I eat.)
+    // write ===, but can also do this way: can also write -> if (hunger) because its
+    // already true. 
+}
+
 // 3. If it's 10pm, I go to bed. If not, I write code.
 let currentHour = 22;
+
+if (currentHour === 10) {
+    console.log('I go to bed')
+else 
+    console.log('I write code')
+}
 
 ```
 
@@ -124,8 +142,11 @@ Let's write a function that outputs 2^10 (two to the power of ten).
 
 ```js
 // Example
-
-
+let x = 2;
+let i = 1;
+while (i <= 10)
+x = x * 2
+i++;
 ```
 
 ---
@@ -161,6 +182,12 @@ for (let number = 0; number <=12; number = number + 1) {
 // let's break that down.
 ```
 
+let number = 0;
+while (number <= 12) {
+    ....
+    number = number + 1;
+}
+
 ---
 
 ⚠️ The **ONLY** way to break out of the loop is for the condition to be `false`. ⚠️
@@ -179,7 +206,10 @@ Write a program that output all of the numbers from 0 to 25
 
 ```js
 // code here
-
+for (let i = 0; i <= 25; i++) 
+{
+    console.log(i)
+}
 ```
 
 ---
@@ -190,7 +220,13 @@ Write a program that output all of ODD the numbers from 0 to 25
 
 ```js
 // code here
-
+for (let i = 0; i <= 25; i++)
+{
+    if (i % 2 === 1) 
+    {
+        console.log(i)
+    }
+}
 ```
 
 ---
@@ -202,6 +238,20 @@ Write a program that output all of the numbers from 0 to 25, but replaces all mu
 ```js
 // code here
 
+for (i = 0; i <= 25; i++)
+{
+    if (25%i === 0)
+    {
+        console.log ('five alive!')
+    }
+    else if {
+        console.log(i);
+    }
+}
+
+// for (let i=0; i<26, i++>)
+
+if (i%5 ===0 && !==0)
 ```
 
 ---
