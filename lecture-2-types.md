@@ -314,6 +314,8 @@ This object has 3 properties.
 ```js
 // Example
 "it has a property with name 'givenName' and value of 'Yoda' of type string"
+let person = {'givenName:'Yoda'}
+person.givenName //Yoda.
 
 ```
 
@@ -367,9 +369,10 @@ let person = {name: 'Bob', age: 23};
 const otherPerson = {name: 'Joe', age: 31, height: '170cm'};
 
 ```
+person.name //bob
 
 ---
-
+otherPerson['name'] //'Joe" 
 ### Exercise 1
 
 ```js
